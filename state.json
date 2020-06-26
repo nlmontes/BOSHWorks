@@ -1,0 +1,77 @@
+{
+    "director_id": "bc53b65d-6855-46e4-588e-5bed3bdfa6c8",
+    "installation_id": "b4644941-4fee-432a-598d-bd531d443e0a",
+    "current_vm_cid": "vm-592bbd0e-1d19-4fef-78e9-7cfde087129f",
+    "current_stemcell_id": "d12369a0-64f3-4db0-5582-963239d10e7d",
+    "current_disk_id": "94fa8fbf-4cde-417d-783b-762b7fd31ae1",
+    "current_release_ids": [
+        "ce08a329-bfc9-4044-7856-d8018bfd0ee7",
+        "171b88a5-50a0-4aa3-7aea-5523d8438065",
+        "69bbf6f3-734a-4e9b-650b-cd28025cdb58",
+        "9cdea08a-ebb1-4ff6-7bd2-1e15513ef500",
+        "304fb733-e87c-4d8d-4062-000f067c2f9b",
+        "65038755-8a4b-45f4-6a87-6addd8340e18",
+        "e1c5bb62-f765-4203-47c8-f3d514fb5974",
+        "c2c507e0-332a-4fd7-6491-30c4d5e69960"
+    ],
+    "current_manifest_sha": "314ffe0fabce26de145baa5277aa5730966997df2635d4eb6b857002c0e12fa96d89f879bf0c96cd6caff2fd3e1b23564ec775524442a4382221ac25123967a2",
+    "disks": [
+        {
+            "id": "94fa8fbf-4cde-417d-783b-762b7fd31ae1",
+            "cid": "disk-a441006f-b08c-4fa0-7f87-9f6fe0462676",
+            "size": 65536,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "d12369a0-64f3-4db0-5582-963239d10e7d",
+            "name": "bosh-vsphere-esxi-ubuntu-xenial-go_agent",
+            "version": "621.76",
+            "api_version": 3,
+            "cid": "sc-ce08376d-152a-4106-7580-53c42d89b5ea"
+        }
+    ],
+    "releases": [
+        {
+            "id": "ce08a329-bfc9-4044-7856-d8018bfd0ee7",
+            "name": "bosh",
+            "version": "271.1.0"
+        },
+        {
+            "id": "171b88a5-50a0-4aa3-7aea-5523d8438065",
+            "name": "bpm",
+            "version": "1.1.8"
+        },
+        {
+            "id": "69bbf6f3-734a-4e9b-650b-cd28025cdb58",
+            "name": "bosh-virtualbox-cpi",
+            "version": "0.2.0"
+        },
+        {
+            "id": "9cdea08a-ebb1-4ff6-7bd2-1e15513ef500",
+            "name": "garden-runc",
+            "version": "1.19.12"
+        },
+        {
+            "id": "304fb733-e87c-4d8d-4062-000f067c2f9b",
+            "name": "bosh-warden-cpi",
+            "version": "41"
+        },
+        {
+            "id": "65038755-8a4b-45f4-6a87-6addd8340e18",
+            "name": "os-conf",
+            "version": "22.0.0"
+        },
+        {
+            "id": "e1c5bb62-f765-4203-47c8-f3d514fb5974",
+            "name": "uaa",
+            "version": "74.21.0"
+        },
+        {
+            "id": "c2c507e0-332a-4fd7-6491-30c4d5e69960",
+            "name": "credhub",
+            "version": "2.6.0"
+        }
+    ]
+}
